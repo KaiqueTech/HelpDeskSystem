@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "HelpDeskSystem.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.CrossCutting.dll": {}
+        }
+      },
+      "HelpDeskSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.Domain.dll": {}
+        }
+      },
+      "HelpDeskSystem.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "HelpDeskSystem.CrossCutting": "1.0.0",
+          "HelpDeskSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelpDeskSystem.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.CrossCutting/HelpDeskSystem.CrossCutting.csproj",
+      "msbuildProject": "../HelpDeskSystem.CrossCutting/HelpDeskSystem.CrossCutting.csproj"
+    },
+    "HelpDeskSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.Domain/HelpDeskSystem.Domain.csproj",
+      "msbuildProject": "../HelpDeskSystem.Domain/HelpDeskSystem.Domain.csproj"
+    },
+    "HelpDeskSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.Infrastructure/HelpDeskSystem.Infrastructure.csproj",
+      "msbuildProject": "../HelpDeskSystem.Infrastructure/HelpDeskSystem.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "HelpDeskSystem.Domain >= 1.0.0",
+      "HelpDeskSystem.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kaique\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Application\\HelpDeskSystem.Application.csproj",
+      "projectName": "HelpDeskSystem.Application",
+      "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Application\\HelpDeskSystem.Application.csproj",
+      "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
+      "outputPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {
+              "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj"
+            },
+            "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Infrastructure\\HelpDeskSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Infrastructure\\HelpDeskSystem.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

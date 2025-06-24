@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Microsoft.AspNetCore.OpenApi/9.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.OpenApi/1.6.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "HelpDeskSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "HelpDeskSystem.Domain": "1.0.0",
+          "HelpDeskSystem.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.Application.dll": {}
+        }
+      },
+      "HelpDeskSystem.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.CrossCutting.dll": {}
+        }
+      },
+      "HelpDeskSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.Domain.dll": {}
+        }
+      },
+      "HelpDeskSystem.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "HelpDeskSystem.CrossCutting": "1.0.0",
+          "HelpDeskSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelpDeskSystem.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelpDeskSystem.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.OpenApi/9.0.6": {
+      "sha512": "MOJ4DG1xd3NlWMYh+JdGNT9uvBtEk1XQU/FQlpNZFlAzM8t0oB5IimvnGlnK7jmyY4vQagLPB1xw1HjJ8CHrZg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/9.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
+      ]
+    },
+    "Microsoft.OpenApi/1.6.17": {
+      "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.17.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "HelpDeskSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.Application/HelpDeskSystem.Application.csproj",
+      "msbuildProject": "../HelpDeskSystem.Application/HelpDeskSystem.Application.csproj"
+    },
+    "HelpDeskSystem.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.CrossCutting/HelpDeskSystem.CrossCutting.csproj",
+      "msbuildProject": "../HelpDeskSystem.CrossCutting/HelpDeskSystem.CrossCutting.csproj"
+    },
+    "HelpDeskSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.Domain/HelpDeskSystem.Domain.csproj",
+      "msbuildProject": "../HelpDeskSystem.Domain/HelpDeskSystem.Domain.csproj"
+    },
+    "HelpDeskSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../HelpDeskSystem.Infrastructure/HelpDeskSystem.Infrastructure.csproj",
+      "msbuildProject": "../HelpDeskSystem.Infrastructure/HelpDeskSystem.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "HelpDeskSystem.Application >= 1.0.0",
+      "HelpDeskSystem.CrossCutting >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 9.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kaique\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.API\\HelpDeskSystem.API.csproj",
+      "projectName": "HelpDeskSystem.API",
+      "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.API\\HelpDeskSystem.API.csproj",
+      "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
+      "outputPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Application\\HelpDeskSystem.Application.csproj": {
+              "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Application\\HelpDeskSystem.Application.csproj"
+            },
+            "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj": {
+              "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[9.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

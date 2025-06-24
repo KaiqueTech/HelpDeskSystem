@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "M1h797kVxgg=",
+  "success": true,
+  "projectFilePath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.API\\HelpDeskSystem.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaique\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\Kaique\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
