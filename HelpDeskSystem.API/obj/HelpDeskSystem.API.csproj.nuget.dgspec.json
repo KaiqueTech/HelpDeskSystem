@@ -31,6 +31,9 @@
               },
               "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj": {
                 "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj"
+              },
+              "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Infrastructure\\HelpDeskSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Infrastructure\\HelpDeskSystem.Infrastructure.csproj"
               }
             }
           }
@@ -54,6 +57,26 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -309,6 +332,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
