@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {}
+    "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {
+    "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj",
+        "projectUniqueName": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj",
         "projectName": "HelpDeskSystem.Domain",
-        "projectPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
-        "outputPath": "C:\\Pessoal\\Kaique\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\obj\\",
+        "projectPath": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\Suporte01\\.nuget\\packages\\",
+        "outputPath": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Suporte01\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

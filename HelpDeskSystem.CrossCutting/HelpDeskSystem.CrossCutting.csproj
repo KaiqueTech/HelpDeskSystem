@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelpDeskSystem.Domain\HelpDeskSystem.Domain.csproj" />
+      <ProjectReference Include="..\HelpDeskSystem.DTO\HelpDeskSystem.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,6 +3,11 @@
   <ItemGroup>
     <ProjectReference Include="..\HelpDeskSystem.Domain\HelpDeskSystem.Domain.csproj" />
     <ProjectReference Include="..\HelpDeskSystem.Infrastructure\HelpDeskSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\HelpDeskSystem.DTO\HelpDeskSystem.DTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
   </ItemGroup>
 
   <PropertyGroup>

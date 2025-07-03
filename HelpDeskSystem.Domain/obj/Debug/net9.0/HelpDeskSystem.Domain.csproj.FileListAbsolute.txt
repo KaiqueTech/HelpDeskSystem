@@ -1,0 +1,12 @@
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\bin\Debug\net9.0\HelpDeskSystem.Domain.deps.json
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\bin\Debug\net9.0\HelpDeskSystem.Domain.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\bin\Debug\net9.0\HelpDeskSystem.Domain.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.AssemblyInfoInputs.cache
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.AssemblyInfo.cs
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.sourcelink.json
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\refint\HelpDeskSystem.Domain.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\HelpDeskSystem.Domain.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Domain\obj\Debug\net9.0\ref\HelpDeskSystem.Domain.dll

@@ -1,0 +1,12 @@
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.deps.json
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.AssemblyInfoInputs.cache
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.AssemblyInfo.cs
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.csproj.CoreCompileInputs.cache
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.sourcelink.json
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\refint\HelpDeskSystem.CrossCutting.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\HelpDeskSystem.CrossCutting.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.CrossCutting\obj\Debug\net9.0\ref\HelpDeskSystem.CrossCutting.dll
