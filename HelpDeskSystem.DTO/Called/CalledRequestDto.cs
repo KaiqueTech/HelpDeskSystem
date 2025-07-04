@@ -1,5 +1,4 @@
-﻿using HelpDeskSystem.API.Models;
-
+﻿
 namespace DefaultNamespace;
 
 public class CalledRequestDto

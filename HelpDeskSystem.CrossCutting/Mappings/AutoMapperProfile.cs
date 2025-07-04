@@ -12,7 +12,13 @@ public class AutoMapperProfile : Profile
     public AutoMapperProfile()
     {
         CreateMap<ClientModel, ClientResponseDto>().ReverseMap();
-        CreateMap<ClientRequestDto, ClientModel>();
+        CreateMap<ClientRequestDto, ClientModel>()
+            .ConstructUsing(dto => new ClientModel(
+                dto.Id,
+                dto.Name,
+                dto.NumberClient,
+                new List<CalledModel>()
+            ));
 
         CreateMap<CalledModel, CalledResponseDto>()
             .ForMember(dest => dest.ClientName, opt => opt.MapFrom(src => src.Client.Name))

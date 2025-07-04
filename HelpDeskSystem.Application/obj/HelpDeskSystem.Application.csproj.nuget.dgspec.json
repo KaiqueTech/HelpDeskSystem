@@ -26,6 +26,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj": {
+                "projectPath": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj"
+              },
               "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj": {
                 "projectPath": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.Domain\\HelpDeskSystem.Domain.csproj"
               },
@@ -56,7 +59,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[15.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
@@ -128,7 +135,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[15.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
@@ -190,6 +201,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -231,11 +252,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj": {
-                "projectPath": "D:\\Kaique\\C#\\Projetos\\HelpDeskSystem\\HelpDeskSystem.CrossCutting\\HelpDeskSystem.CrossCutting.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -253,6 +270,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -320,6 +347,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.6, )"

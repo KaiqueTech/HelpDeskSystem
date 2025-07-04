@@ -1,3 +1,5 @@
+using HelpDeskSystem.Application.Interfaces;
+using HelpDeskSystem.Application.Services;
 using HelpDeskSystem.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +12,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IClientService, ClientService>();
+
+builder.Services.AddAutoMapper(typeof(Program).Assembly); 
 
 
 var app = builder.Build();

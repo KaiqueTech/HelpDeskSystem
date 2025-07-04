@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelpDeskSystem.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e764e7576e82e85c8b1476c8b48fc79b2e97a97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1c2d97d0c408db0c49eed2333e6745537ef139d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelpDeskSystem.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelpDeskSystem.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,6 +6,7 @@ D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDes
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.API.runtimeconfig.json
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.API.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.API.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\AutoMapper.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\Humanizer.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -111,10 +112,12 @@ D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\zh-Hant
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Application.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Domain.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.DTO.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Infrastructure.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Application.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Infrastructure.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.DTO.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\bin\Debug\net9.0\HelpDeskSystem.Domain.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\obj\Debug\net9.0\HelpDeskSystem.API.csproj.AssemblyReference.cache
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.API\obj\Debug\net9.0\HelpDeskSystem.API.GeneratedMSBuildEditorConfig.editorconfig

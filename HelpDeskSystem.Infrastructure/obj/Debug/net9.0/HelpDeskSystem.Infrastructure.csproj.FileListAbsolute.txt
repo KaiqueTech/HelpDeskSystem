@@ -4,8 +4,10 @@ D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.Infrastructure.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.Domain.dll
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.DTO.dll
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.Domain.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.CrossCutting.pdb
+D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\bin\Debug\net9.0\HelpDeskSystem.DTO.pdb
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\obj\Debug\net9.0\HelpDeskSystem.Infrastructure.csproj.AssemblyReference.cache
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\obj\Debug\net9.0\HelpDeskSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\Kaique\C#\Projetos\HelpDeskSystem\HelpDeskSystem.Infrastructure\obj\Debug\net9.0\HelpDeskSystem.Infrastructure.AssemblyInfoInputs.cache
